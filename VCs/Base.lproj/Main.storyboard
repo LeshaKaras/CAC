@@ -37,15 +37,11 @@
                             </tableView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9rg-TA-r0Y">
                                 <rect key="frame" x="0.0" y="323" width="375" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="8Dz-QB-7ws"/>
-                                    <constraint firstAttribute="height" constant="20" id="iPm-f1-DiH"/>
-                                </constraints>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KEa-cd-Flw">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="3zA-iU-eXV"/>
+                                    <constraint firstAttribute="height" constant="44" id="PfW-vo-pjU"/>
                                 </constraints>
                                 <items>
                                     <navigationItem title="Countries" id="k7a-zd-Zbe"/>
@@ -54,17 +50,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="KEa-cd-Flw" firstAttribute="top" secondItem="KNs-5g-yzI" secondAttribute="top" id="2a3-5f-dea"/>
-                            <constraint firstItem="KEa-cd-Flw" firstAttribute="leading" secondItem="KNs-5g-yzI" secondAttribute="leading" id="4Vo-dr-j0v"/>
-                            <constraint firstItem="9rg-TA-r0Y" firstAttribute="leading" secondItem="KNs-5g-yzI" secondAttribute="leading" id="50h-dG-g9W"/>
-                            <constraint firstItem="GMY-8u-gzm" firstAttribute="leading" secondItem="KNs-5g-yzI" secondAttribute="leading" id="FTN-QU-fuO"/>
-                            <constraint firstItem="KEa-cd-Flw" firstAttribute="trailing" secondItem="KNs-5g-yzI" secondAttribute="trailing" id="Ibt-HB-xV7"/>
-                            <constraint firstItem="GMY-8u-gzm" firstAttribute="bottom" secondItem="KNs-5g-yzI" secondAttribute="bottom" id="RNS-rT-i97"/>
-                            <constraint firstItem="9rg-TA-r0Y" firstAttribute="top" secondItem="KEa-cd-Flw" secondAttribute="bottom" constant="259" id="YDl-Ab-QTf"/>
-                            <constraint firstItem="GMY-8u-gzm" firstAttribute="top" secondItem="KEa-cd-Flw" secondAttribute="bottom" id="ZF9-S7-8W1"/>
-                            <constraint firstItem="9rg-TA-r0Y" firstAttribute="trailing" secondItem="KNs-5g-yzI" secondAttribute="trailing" id="dcz-Rd-eGH"/>
-                            <constraint firstItem="KNs-5g-yzI" firstAttribute="bottom" secondItem="9rg-TA-r0Y" secondAttribute="bottom" constant="324" id="foQ-LM-ca8"/>
-                            <constraint firstItem="GMY-8u-gzm" firstAttribute="trailing" secondItem="KNs-5g-yzI" secondAttribute="trailing" id="ztA-nl-6IU"/>
+                            <constraint firstItem="GMY-8u-gzm" firstAttribute="leading" secondItem="KNs-5g-yzI" secondAttribute="leading" id="2Fe-IF-VZS"/>
+                            <constraint firstItem="GMY-8u-gzm" firstAttribute="top" secondItem="KEa-cd-Flw" secondAttribute="bottom" id="AZC-Ua-dfe"/>
+                            <constraint firstItem="9rg-TA-r0Y" firstAttribute="top" secondItem="KEa-cd-Flw" secondAttribute="bottom" constant="259" id="MTJ-ML-YqZ"/>
+                            <constraint firstItem="GMY-8u-gzm" firstAttribute="bottom" secondItem="KNs-5g-yzI" secondAttribute="bottom" id="Oj0-dc-dTA"/>
+                            <constraint firstItem="9rg-TA-r0Y" firstAttribute="leading" secondItem="KNs-5g-yzI" secondAttribute="leading" id="Omn-hZ-vIL"/>
+                            <constraint firstItem="KNs-5g-yzI" firstAttribute="bottom" secondItem="9rg-TA-r0Y" secondAttribute="bottom" constant="324" id="Qk8-O9-vif"/>
+                            <constraint firstItem="KEa-cd-Flw" firstAttribute="trailing" secondItem="KNs-5g-yzI" secondAttribute="trailing" id="TmO-38-9vt"/>
+                            <constraint firstItem="GMY-8u-gzm" firstAttribute="trailing" secondItem="KNs-5g-yzI" secondAttribute="trailing" id="Xuh-cS-H1J"/>
+                            <constraint firstItem="KEa-cd-Flw" firstAttribute="leading" secondItem="KNs-5g-yzI" secondAttribute="leading" id="YOk-g8-FeF"/>
+                            <constraint firstItem="9rg-TA-r0Y" firstAttribute="trailing" secondItem="KNs-5g-yzI" secondAttribute="trailing" id="ZSm-Ws-lzT"/>
+                            <constraint firstItem="KEa-cd-Flw" firstAttribute="top" secondItem="KNs-5g-yzI" secondAttribute="top" id="u8k-ra-pbw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KNs-5g-yzI"/>
                     </view>
