@@ -1,0 +1,6 @@
+framework module Pods_CountryAndCity_Swift_4_ {
+  umbrella header "Pods-CountryAndCity(Swift 4)-umbrella.h"
+
+  export *
+  module * { export * }
+}
